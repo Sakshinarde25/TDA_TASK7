@@ -1,0 +1,124 @@
+Project Overview
+
+This project performs a statistical analysis of business sales data to understand sales behavior, marketing impact, and revenue patterns.
+The analysis uses descriptive statistics, hypothesis testing, correlation analysis, confidence intervals, and regression modeling to generate meaningful business insights.
+
+This project demonstrates how statistics can support data-driven decision making in real-world business scenarios.
+
+🎯 Project Objectives
+
+Analyze sales data using descriptive statistics
+
+Understand the relationship between marketing spend and sales
+
+Perform hypothesis testing to validate business assumptions
+
+Calculate confidence intervals for sales estimates
+
+Build a regression model to predict sales
+
+Translate statistical results into business insights
+
+🛠️ Tools & Technologies
+
+Python 3
+
+Pandas – Data handling
+
+NumPy – Numerical computations
+
+Matplotlib & Seaborn – Data visualization
+
+SciPy – Hypothesis testing
+
+Statsmodels – Regression analysis
+
+📁 Project Structure
+statistical-business-analysis/
+│
+├── statistical_analysis.py
+├── statistical_analysis.ipynb
+├── business_data.csv
+├── requirements.txt
+├── hypothesis_tests_results.txt
+├── statistical_report.pdf
+└── README.md
+
+📊 Dataset Description
+
+File: business_data.csv
+
+Column Name	Description
+Sales	Total sales revenue
+Marketing_Spend	Marketing expenditure
+Profit	Net profit
+🔍 Analysis Performed
+1️⃣ Descriptive Statistics
+
+Mean, Median, Standard Deviation
+
+Helps understand central tendency and spread of sales data
+
+2️⃣ Distribution Analysis
+
+Histogram of sales
+
+Normality testing using Shapiro-Wilk test
+
+3️⃣ Correlation Analysis
+
+Pearson correlation between Sales and Marketing Spend
+
+Correlation heatmap for numeric variables
+
+4️⃣ Hypothesis Testing
+
+One-sample t-test
+
+Independent t-test
+
+ANOVA test
+
+Results are stored in hypothesis_tests_results.txt.
+
+5️⃣ Confidence Interval
+
+95% confidence interval calculated for average sales
+
+6️⃣ Regression Analysis
+
+Linear regression to predict sales based on marketing spend
+
+R-squared used to measure model performance
+
+📈 Sample Output
+Average Sales: $45,200 ± $3,400 (95% CI)
+Correlation (Sales-Marketing): 0.78 (Strong)
+Marketing affects sales: p = 0.0012 ✓ Significant
+
+▶️ How to Run the Project
+Step 1: Install dependencies
+pip install -r requirements.txt
+
+Step 2: Run analysis
+python statistical_analysis.py
+
+
+✔ Statistical results printed in terminal
+✔ Graphs displayed
+✔ Hypothesis test results saved to file
+
+💡 Key Business Insights
+
+Marketing spend has a strong positive impact on sales
+
+Sales data follows a near-normal distribution
+
+Regression analysis confirms marketing as a key sales driver
+
+Statistical tests validate business assumptions with confidence
+
+✅ Conclusion
+
+This project demonstrates how statistical methods can be applied to real business data to support informed decision-making.
+The analysis framework can be extended to larger datasets or used in predictive business models.
